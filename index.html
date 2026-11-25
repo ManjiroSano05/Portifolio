@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio pessoal de Arthur Camargo Pinheiro: criatividade, jogos, RPG e kickboxing.">
+  <title>Arthur Camargo Pinheiro | Portfólio</title>
+  <link rel="icon" href="imagens/marca.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#principal">Pular para o conteúdo</a>
+  <header class="header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio"><img src="imagens/marca.svg" alt="" width="36" height="36"><span>arthur<span class="accent">.</span></span></a>
+      <button class="menu" type="button" aria-expanded="false" aria-controls="links">Menu <span aria-hidden="true">☰</span></button>
+      <ul id="links" class="links"><li><a href="#sobre">Sobre mim</a></li><li><a href="#hobbies">Hobbies</a></li><li><a href="#dados">Interatividade</a></li></ul>
+    </nav>
+  </header>
+  <main id="principal">
+    <section id="inicio" class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> PORTFÓLIO PESSOAL · 2026</p>
+        <h1>Arthur Camargo<br>Pinheiro<span class="accent">.</span></h1>
+        <p class="lead">Criatividade dentro e fora do jogo.</p>
+        <p class="intro">Tenho 19 anos e gosto de criar, jogar, viver histórias e me desafiar no kickboxing. Este é um pouco do meu universo.</p>
+        <a class="button" href="#hobbies">Conheça meus hobbies <span aria-hidden="true">↘</span></a>
+      </div>
+      <figure class="portrait"><img src="imagens/foto-perfil.jpg" alt="Foto pessoal de Arthur Camargo Pinheiro" width="480" height="540"><figcaption><span>ARTHUR C. PINHEIRO</span><span>01 — PERFIL</span></figcaption></figure>
+    </section>
+    <section id="sobre" class="section container about">
+      <div><p class="eyebrow">01 / QUEM SOU</p><h2>Sobre mim<span class="accent">.</span></h2></div>
+      <div><p>Sou uma pessoa criativa e gosto de transformar ideias em coisas novas. Tenho 19 anos e meus interesses vão dos jogos e RPGs ao kickboxing.</p><p>Gosto da liberdade de imaginar, criar e experimentar. Os jogos me permitem explorar novos desafios, o RPG abre espaço para histórias e personagens, e o kickboxing é uma forma de desenvolver disciplina e superar limites.</p><div class="tags"><span>Criação</span><span>Jogos</span><span>RPG</span><span>Kickboxing</span></div></div>
+    </section>
+    <section id="hobbies" class="section container">
+      <p class="eyebrow">02 / MEUS INTERESSES</p><h2>O que gosto de fazer<span class="accent">.</span></h2>
+      <div class="cards">
+        <article class="card"><div class="card-top"><img src="imagens/criatividade.svg" alt="" width="46" height="46"><span>01</span></div><h3>Criatividade</h3><p>Gosto de imaginar possibilidades e transformar ideias em criações. Inventar algo novo é uma das coisas que mais me motivam.</p></article>
+        <article class="card"><div class="card-top"><img src="imagens/jogos.svg" alt="" width="46" height="46"><span>02</span></div><h3>Jogos</h3><p>Os jogos são uma forma de diversão, desafio e exploração. Gosto de descobrir novos mundos e experimentar maneiras diferentes de jogar.</p></article>
+        <article class="card"><div class="card-top"><img src="imagens/rpg.svg" alt="" width="46" height="46"><span>03</span></div><h3>RPG de mesa</h3><p>Adoro a possibilidade de interpretar personagens, imaginar histórias e construir aventuras com outras pessoas.</p></article>
+        <article class="card"><div class="card-top"><img src="imagens/kickboxing.svg" alt="" width="46" height="46"><span>04</span></div><h3>Kickboxing</h3><p>Gosto de lutar kickboxing. A prática reúne técnica, concentração, disciplina e a vontade de evoluir a cada treino.</p></article>
+      </div>
+    </section>
+    <section id="dados" class="section container">
+      <div class="roller">
+        <div><p class="eyebrow">03 / EXPERIMENTE</p><h2>Uma rolagem de sorte<span class="accent">.</span></h2><p>Um pequeno elemento do universo dos RPGs: escolha um dado e descubra o resultado da sua rolagem.</p><label for="tipo-dado">Tipo de dado</label><div class="controls"><select id="tipo-dado"><option value="4">D4</option><option value="6">D6</option><option value="8">D8</option><option value="10">D10</option><option value="12">D12</option><option value="20" selected>D20</option><option value="100">D100</option></select><button type="button" class="button" id="rolar">Rolar dado <span aria-hidden="true">↗</span></button></div></div>
+        <div class="result-panel"><div class="die"><span id="resultado" aria-hidden="true">?</span></div><p id="mensagem" role="status" aria-live="polite">Aguardando sua rolagem.</p><p id="historico" class="history">Últimas rolagens: nenhuma.</p></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><span>© 2026 Arthur Camargo Pinheiro</span><span>Projeto Final A1 · HTML, CSS e JavaScript</span><a href="#inicio">Voltar ao topo ↑</a></div></footer>
+</body>
+</html>
